@@ -1,4 +1,26 @@
-# YouTube Video Chat — Adaptive Multi-Source RAG
+```
+
+Find the Project Structure section and replace it with this clean version — no comments on the right:
+```
+## Project Structure
+```
+youtube-rag/
+├── main.py
+├── config.py
+├── ingest_youtube.py
+├── retriever.py
+├── web_search.py
+├── adaptive_router.py
+├── rag_pipeline.py
+├── streamlit_app.py
+├── requirements.txt
+├── .env.example
+├── agents/
+│   ├── query_classifier.py
+│   └── evaluator.py
+└── api/
+    └── routes.py
+```# YouTube Video Chat — Adaptive Multi-Source RAG
 
 A production-grade question-answering system that lets you chat with any YouTube video.  
 Uses an **Adaptive Multi-Source RAG** architecture: retrieves from the video transcript first, automatically falls back to live web search when the transcript alone is insufficient.
