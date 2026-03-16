@@ -20,12 +20,7 @@ youtube-rag/
 │   └── evaluator.py
 └── api/
     └── routes.py
-```# YouTube Video Chat — Adaptive Multi-Source RAG
-
-A production-grade question-answering system that lets you chat with any YouTube video.  
-Uses an **Adaptive Multi-Source RAG** architecture: retrieves from the video transcript first, automatically falls back to live web search when the transcript alone is insufficient.
-
----
+```
 
 ## Architecture
 
