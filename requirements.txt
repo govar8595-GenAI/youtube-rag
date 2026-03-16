@@ -1,0 +1,30 @@
+# Core LLM & LangChain  (Python 3.13 compatible)
+langchain==0.3.18
+langchain-openai==0.3.6
+langchain-community==0.3.17
+openai>=1.61.0
+
+# Vector stores
+faiss-cpu==1.13.2                  # First release with Python 3.13 wheels
+chromadb==0.6.3                   # 3.13 support from 0.6.x onwards
+
+# YouTube
+youtube-transcript-api==0.6.3
+
+# Web search
+tavily-python==0.5.0              # Tavily (recommended, free tier)
+duckduckgo-search==7.2.1          # DuckDuckGo (free, no key needed)
+# NOTE: SerpAPI (google-search-results) is excluded — its C extension
+#       does not build on Python 3.13. Use Tavily or DuckDuckGo instead.
+
+# API server
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+
+# Optional UI
+streamlit==1.42.0
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.32.3
